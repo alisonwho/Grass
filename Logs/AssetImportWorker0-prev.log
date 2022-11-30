@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55297
+63064
 Successfully changed project path to: /Users/alison/Grass
 /Users/alison/Grass
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/alison/Grass
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 108.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,93 +69,360 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56135
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56981
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003237 seconds.
+Registered in 0.003116 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.666 seconds
+- Completed reload, in  1.548 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1668ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1550ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1238ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1136ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (892ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (819ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (564ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001939 seconds.
+Registered in 0.001943 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.741 seconds
+- Completed reload, in  2.416 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2744ms)
-		BeginReloadAssembly (268ms)
+	ReloadAssembly (2418ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
+			DisableScriptedObjects (40ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (2138ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1888ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (369ms)
+			SetupTypeCache (326ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1359ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1179ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (1059ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (905ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (95.6 KB). Loaded Objects now: 3895.
+Memory consumption went from 327.6 MB to 327.5 MB.
+Total: 3.048417 ms (FindLiveObjects: 0.193083 ms CreateObjectMapping: 0.082875 ms MarkObjects: 2.661250 ms  DeleteObjects: 0.110167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68951.742397 seconds.
+  path: Assets/Detail Flower Pack/Models/flower4b.FBX
+  artifactKey: Guid(3571f92f26a143941944bf18a3c3b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower4b.FBX using Guid(3571f92f26a143941944bf18a3c3b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b7bcf56db1b7cd9dc694acd890a67e') in 0.934591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Detail Flower Pack/Models/flower7b.FBX
+  artifactKey: Guid(b3c010cc3473d4e4a837451fcfa9ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower7b.FBX using Guid(b3c010cc3473d4e4a837451fcfa9ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4efc05b9487bc823de00b36f89f4f2') in 0.027754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Detail Flower Pack/Models/flower14b.FBX
+  artifactKey: Guid(e654da36d505c6b479fd2d6e56dc6b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower14b.FBX using Guid(e654da36d505c6b479fd2d6e56dc6b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b5af704d4cede703e9ce05597f643f') in 0.032358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Detail Flower Pack/Models/flower5a.FBX
+  artifactKey: Guid(6a72c128a6b9ae347875da10db69f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower5a.FBX using Guid(6a72c128a6b9ae347875da10db69f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd88e264cbb33c50923d2b13a377a07') in 0.037864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Detail Flower Pack/Models/flower6a.FBX
+  artifactKey: Guid(974f3e90bc77ea345ba8c34fe40fb5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower6a.FBX using Guid(974f3e90bc77ea345ba8c34fe40fb5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e9b466986c3fd875ee3e76889f94c2') in 0.020564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Detail Flower Pack/Models/flower1b.FBX
+  artifactKey: Guid(cf2767309ccca8b43b2f012c4ace31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower1b.FBX using Guid(cf2767309ccca8b43b2f012c4ace31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30df65c94402d3f0b9a062ac3df7316c') in 0.022055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Detail Flower Pack/Models/ground2.FBX
+  artifactKey: Guid(810e20f276a885d4a898b77f7dfa80e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/ground2.FBX using Guid(810e20f276a885d4a898b77f7dfa80e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d71bb6f548510056fd7fd25ceb834') in 0.022078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Detail Flower Pack/Models/flower9b.FBX
+  artifactKey: Guid(439a41c692351ad49860dff6920fbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower9b.FBX using Guid(439a41c692351ad49860dff6920fbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918930ccbaa19cb44efbed0e7c21c06b') in 0.024034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Detail Flower Pack/Models
+  artifactKey: Guid(91a9510e02086094e8d4be5f2571f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models using Guid(91a9510e02086094e8d4be5f2571f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cf686e0721088bdf21553a2f6a5015') in 0.002101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Detail Flower Pack/Models/flower2b.FBX
+  artifactKey: Guid(93ceaedfbe10caf4a9e86f8f83b12f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower2b.FBX using Guid(93ceaedfbe10caf4a9e86f8f83b12f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcbc45978eb4c3ccb607e15f9c2d214') in 0.018035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Detail Flower Pack/Models/flower8a.FBX
+  artifactKey: Guid(582d77434995ef149bf8e8349d6b11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower8a.FBX using Guid(582d77434995ef149bf8e8349d6b11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2dbe77374d3af01c9cddbb84b4ad24') in 0.016446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Detail Flower Pack/Models/grass1.FBX
+  artifactKey: Guid(097260cc9dad14247abf12e00240c9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/grass1.FBX using Guid(097260cc9dad14247abf12e00240c9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd862b5a2a1b3a50415417b2444bb0639') in 0.017160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Detail Flower Pack/Models/flower5b.FBX
+  artifactKey: Guid(5045428bf2868a4488389a1659bcf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower5b.FBX using Guid(5045428bf2868a4488389a1659bcf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c836fbeb14b8742ec444114062f884d8') in 0.017251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Detail Flower Pack/Models/flower9a.FBX
+  artifactKey: Guid(b75954a1178d1764993feda0db2b1b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower9a.FBX using Guid(b75954a1178d1764993feda0db2b1b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025b35c404ae946129c08e2f116b308f') in 0.020215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Detail Flower Pack/Models/flower10.FBX
+  artifactKey: Guid(9b431a3a3f36d4c44a7e625b751538f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower10.FBX using Guid(9b431a3a3f36d4c44a7e625b751538f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8fcd96120bd5bc297d2bb6e98baeed') in 0.019949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Detail Flower Pack/Models/flower1a.FBX
+  artifactKey: Guid(831629dba3d3a8e438e6bc78657b139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/flower1a.FBX using Guid(831629dba3d3a8e438e6bc78657b139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfb6a4ab646b96880451256cd2a9aac') in 0.015868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Detail Flower Pack/Models/grass3.FBX
+  artifactKey: Guid(06dac3b5e287cd24685cb29f8d0d9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/Models/grass3.FBX using Guid(06dac3b5e287cd24685cb29f8d0d9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696f3b1a7c42ae7b8e5230fd2e5faccb') in 0.017919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.899348 seconds.
+  path: Assets/Detail Flower Pack/prefabs
+  artifactKey: Guid(2646f144416e54b4894a883214ddf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs using Guid(2646f144416e54b4894a883214ddf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718dc83f3ec59f007b56f342ff3722a4') in 0.000958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025499 seconds.
+  path: Assets/Detail Flower Pack/prefabs/all in one.prefab
+  artifactKey: Guid(1ffcf7d8e66610449b1c4bce88b9f35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/all in one.prefab using Guid(1ffcf7d8e66610449b1c4bce88b9f35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782d6e8eccde44594ac96e9380e7dba') in 0.741248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower3a.prefab
+  artifactKey: Guid(d2937c537938bc744845009779cd26dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower3a.prefab using Guid(d2937c537938bc744845009779cd26dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25570f3ba3c004be69d415064a0f5c60') in 0.014480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower9a.prefab
+  artifactKey: Guid(2046de2339daca546bbe3ef02ae1a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower9a.prefab using Guid(2046de2339daca546bbe3ef02ae1a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf5e7341596191302efca0fb54061b9') in 0.012170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Detail Flower Pack/prefabs/grass2.prefab
+  artifactKey: Guid(4008838380bec6748bb8a7a083b76531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/grass2.prefab using Guid(4008838380bec6748bb8a7a083b76531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432395babecf74800263bc80e966583') in 0.013149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower5b.prefab
+  artifactKey: Guid(c5956d4403310c3448736ab5fd5de6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower5b.prefab using Guid(c5956d4403310c3448736ab5fd5de6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b12f36a2ddd35ba7eb8ac124a72cf') in 0.010880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower11b.prefab
+  artifactKey: Guid(477972b58e8da844e96e2e517090bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower11b.prefab using Guid(477972b58e8da844e96e2e517090bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856f89bab24d846275077d93e778113a') in 0.011164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower12b.prefab
+  artifactKey: Guid(9fb28defb3986dc4c8f2bc676f7540ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower12b.prefab using Guid(9fb28defb3986dc4c8f2bc676f7540ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbea3f9894ddeddee65a79d1e359fb4') in 0.012466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower14b.prefab
+  artifactKey: Guid(17e0e855e7d653942a23f6bf331b7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower14b.prefab using Guid(17e0e855e7d653942a23f6bf331b7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d1b69cdf425c7641c3499c7b9f224e') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower9b.prefab
+  artifactKey: Guid(1cc3f353e13cb0c40a58a68cb1e5819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower9b.prefab using Guid(1cc3f353e13cb0c40a58a68cb1e5819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b1ea0288160cf04e8d9c998c8267a5') in 0.013997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower11a.prefab
+  artifactKey: Guid(5c182fb1021e27b4bb41392ec574de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower11a.prefab using Guid(5c182fb1021e27b4bb41392ec574de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e71356edf50010b3f596a3e77653d31') in 0.010947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower5a.prefab
+  artifactKey: Guid(65d40e97b7a4a4246b8a011392e29cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower5a.prefab using Guid(65d40e97b7a4a4246b8a011392e29cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a6aad98926a5bddeaf03af779ea765') in 0.011489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower8b.prefab
+  artifactKey: Guid(79edeb34d9ab79a4da53adfdc978104c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower8b.prefab using Guid(79edeb34d9ab79a4da53adfdc978104c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13428a4a426e8f5d3468ea9bf60de14f') in 0.012477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower15.prefab
+  artifactKey: Guid(cf85d4ce182a93d47aa4f689b4690364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower15.prefab using Guid(cf85d4ce182a93d47aa4f689b4690364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ff82570f37b9aae7ac6c8a846a55b7') in 0.013002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Detail Flower Pack/prefabs/ground2.prefab
+  artifactKey: Guid(5aea6f789e236f04c9c407b28b0d7eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/ground2.prefab using Guid(5aea6f789e236f04c9c407b28b0d7eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe26ea1bad580451f5cd266e44e55646') in 0.011607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower8a.prefab
+  artifactKey: Guid(2f6fe3a83bef89042a8df42e828b3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower8a.prefab using Guid(2f6fe3a83bef89042a8df42e828b3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b19c7499765a890295a924e23eb87') in 0.013674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower10.prefab
+  artifactKey: Guid(c2cf24fdf00eac34e9a1d6ce4a0e4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower10.prefab using Guid(c2cf24fdf00eac34e9a1d6ce4a0e4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5574e5a78a1838e7c012ca0ccba7a88') in 0.011356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Detail Flower Pack/prefabs/flower2b.prefab
+  artifactKey: Guid(a687e47035004074fa8b7f61aac7ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Detail Flower Pack/prefabs/flower2b.prefab using Guid(a687e47035004074fa8b7f61aac7ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444aaf414a41c0fdcf4c34172225dccc') in 0.011940 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2508ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1942ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (950ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (95.6 KB). Loaded Objects now: 3895.
-Memory consumption went from 327.7 MB to 327.6 MB.
-Total: 3.559667 ms (FindLiveObjects: 0.223333 ms CreateObjectMapping: 0.083792 ms MarkObjects: 3.056625 ms  DeleteObjects: 0.194542 ms)
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3909.
+Memory consumption went from 341.0 MB to 340.9 MB.
+Total: 3.069292 ms (FindLiveObjects: 0.209667 ms CreateObjectMapping: 0.075375 ms MarkObjects: 2.645709 ms  DeleteObjects: 0.137458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,49 +437,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001836 seconds.
+Registered in 0.004512 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/alison/Grass/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.677 seconds
+- Completed reload, in  2.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2679ms)
-		BeginReloadAssembly (286ms)
+	ReloadAssembly (2512ms)
+		BeginReloadAssembly (329ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (45ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (2125ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1938ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1392ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1216ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (1085ms)
-				ProcessInitializeOnLoadMethodAttributes (138ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (941ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.1 KB). Loaded Objects now: 3898.
-Memory consumption went from 326.9 MB to 326.8 MB.
-Total: 3.617083 ms (FindLiveObjects: 0.412084 ms CreateObjectMapping: 0.384292 ms MarkObjects: 2.611583 ms  DeleteObjects: 0.207167 ms)
+Unloading 20 unused Assets / (72.6 KB). Loaded Objects now: 3912.
+Memory consumption went from 341.2 MB to 341.1 MB.
+Total: 3.138792 ms (FindLiveObjects: 0.223042 ms CreateObjectMapping: 0.079916 ms MarkObjects: 2.657000 ms  DeleteObjects: 0.177833 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
